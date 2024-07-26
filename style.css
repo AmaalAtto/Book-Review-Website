@@ -1,0 +1,311 @@
+
+
+#firstPage {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+
+#background-container {
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url("C:/Users/attoa/Downloads/aura.jpg");
+    background-size: cover;       /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center;  /* Center the image */
+    position: absolute;
+}
+
+  #head-container{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    white-space: nowrap;
+    margin: 50px;
+    z-index: 10; /* Ensure this is higher than other elements */
+    position: absolute;
+    right: 730px;
+    bottom: 250px;
+    
+  }
+
+  #head2-container{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    white-space: nowrap;
+    z-index: 1;
+    margin: 50px;
+    position: absolute;
+    right: 650px;
+    bottom: 160px;
+  }
+
+  #subhead-container{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 14px;
+    width: 300px;
+    margin: 50px;
+    word-spacing: 1px;
+    position: absolute;
+    right: 300px ;
+    bottom: 275px ;
+  }
+
+  #book-button {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 50px;
+    position: absolute;
+    left: 590px ;
+    bottom: 230px ;
+
+    border: none;
+    border-radius: 10px;
+    background: hsl(15, 70%, 79%);
+    padding: 0px;
+    width: 155px;
+    height: 40px;
+    
+
+  }
+
+  #library-button {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    position: absolute; 
+    margin: 50px;
+    left: 750px ;
+    bottom: 230px ;
+    color: black;
+
+    border: none;
+    border-radius: 10px;
+    background: hsl(15, 70%, 79%);
+    padding: 0px;
+    width: 130px;
+    height: 40px;
+    
+  }
+
+ 
+  /* top right aling social media icons*/
+  #socialmedia-container {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    display: flex;
+    gap: 15px; 
+    font-size: 25px;
+    margin:50px; 
+}
+
+
+#secondPage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+
+#background2-container {
+    width: 100vw; 
+    height: 100vh;
+    background-image: url("C:/Users/attoa/Downloads/aura.jpg");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    position: relative;
+}
+
+#posthead-container{
+
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    white-space: nowrap;
+    margin: 50px;
+    z-index: 10; /* Ensure this is higher than other elements */
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+}
+
+#namebox-container{
+    position: absolute;
+    right: 550px;
+    bottom: 390px;
+    
+
+}
+#authorbox-container{
+
+    position: absolute;
+    right: 550px;
+    bottom: 430px;
+    border: none;
+    background-color: transparent;
+
+}
+
+
+#review-container{
+
+    position: absolute;
+    right: 440px;
+    bottom: 270px;
+    
+}
+
+
+/***** Star Buttons ******/
+/* Basic styles for the star rating */
+.star-rating {
+    direction: rtl; /* Optional: Right-to-left direction for easier alignment */
+    display: inline-flex;
+    font-size: 2rem; /* Adjust size of stars */
+    position: absolute;
+    right: 570px;
+    bottom: 190px;
+}
+
+/* Hide radio buttons */
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+/* Style default (unselected) stars */
+.star-rating label {
+    color: #ccc; /* Default color for unselected stars */
+    cursor: pointer;
+    font-size: 2rem; /* Adjust size of stars */
+}
+
+
+/* Change color of stars when selected */
+.star-rating input[type="radio"]:checked ~ label {
+    color: gold; /* Color for selected stars */
+}
+
+/* Style the stars up to the selected star */
+.star-rating input[type="radio"]:checked ~ input[type="radio"] ~ label {
+    color: gold; /* Color for stars before the selected star */
+}
+
+
+#post-container{
+    position: absolute;
+    right: 620px;
+    bottom: 130px;
+
+}
+
+#thirdPage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+#background3-container {
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url("C:/Users/attoa/Downloads/aura.jpg");
+    background-size: cover;       /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center;  /* Center the image */
+    position: absolute;
+}
+
+#libraryhead-container{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    white-space: nowrap;
+    margin: 50px;
+    z-index: 10; /* Ensure this is higher than other elements */
+    position: absolute;
+    left: 450px;
+    bottom: 450px;
+}
+
+#bookbox-container{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #edeaea;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    z-index: 10;
+    right: 350px;
+    bottom: 400px;
+}
+
+#author2box-container{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #edeaea;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    z-index: 10;
+    right: 350px;
+    bottom: 320px;
+}
+
+#reviewbox-container{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #edeaea;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    z-index: 10;
+    right: 250px;
+    bottom: 60px;
+
+}
+
+#imagebox-container{
+    position: absolute;
+    width: 300px;
+    height: 370px;
+    border: 1px solid #edeaea;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    z-index: 10;
+    right: 700px;
+    bottom: 60px;
+}

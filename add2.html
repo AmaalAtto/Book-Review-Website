@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- specifying the language-->
+<html lang="en">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+
+    <!--page title-->
+    <head>
+        <title>BOOK WATCHING</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+
+    <body id="secondPage">
+
+        <div id="background2-container"></div>
+
+        <div id="posthead-container">
+            <h1> Post a Review</h1>
+        </div>
+
+
+        <!--book name box-->
+        <div id="namebox-container">
+            <input
+            type="text"
+            class="input-item"
+            name="input-box"
+            id="input-box"
+            placeholder="Enter Book Name"
+            />
+        </div>
+
+
+        <!--author box-->
+        <div id="authorbox-container">
+            <input
+            type="text"
+            class="input-item"
+            name="input-box"
+            id="input-box"
+            placeholder="Enter Author Name"
+            />
+        </div>
+
+
+
+        <!--comments about book-->
+        <div id="review-container">
+
+            <textarea 
+                rows="5" 
+                cols="50" 
+                id="title"
+                placeholder="What did you think about the book?"
+                >
+            </textarea>
+        </div>
+
+        <!--star rating button-->
+        <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5" />
+            <label for="star5" title="5 stars">☆</label>
+            <input type="radio" id="star4" name="rating" value="4" />
+            <label for="star4" title="4 stars">☆</label>
+            <input type="radio" id="star3" name="rating" value="3" />
+            <label for="star3" title="3 stars">☆</label>
+            <input type="radio" id="star2" name="rating" value="2" />
+            <label for="star2" title="2 stars">☆</label>
+            <input type="radio" id="star1" name="rating" value="1" />
+            <label for="star1" title="1 star">☆</label>
+
+        </div>
+
+        <!--post button-->
+        <div id="post-container">
+            <button id="input-button" onclick="addTask()">Post</button>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+
+</html>
